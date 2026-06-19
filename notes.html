@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <a href="index.html">⬅ Back to Dashboard</a>
+
+    <h1>Notes Manager</h1>
+
+    <textarea id="noteInput"
+        placeholder="Write your note here..."
+        rows="5"
+        cols="30"></textarea>
+
+    <br><br>
+
+    <button onclick="saveNote()">Save Note</button>
+
+    <h3>Saved Notes</h3>
+
+    <div id="notesList"></div>
+
+</div>
+
+<script src="notes.js"></script>
+
+</body>
+</html>
